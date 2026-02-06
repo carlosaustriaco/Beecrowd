@@ -1,0 +1,12 @@
+a,b,c=map(int, input().split())
+
+l = [a,b,c]
+l.sort()
+
+print(l[0])
+print(l[1])
+print(l[2])
+print()
+print(a)
+print(b)
+print(c)
